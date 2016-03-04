@@ -1,0 +1,169 @@
+2016-03-04 10:26:07.818 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NewRelicAgentInternal.m:214	-[NewRelicAgentInternal initWithCollectorAddress:crashCollectorAddress:andApplicationToken:withSSL:]
+	Agent enabled
+2016-03-04 10:26:07.823 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMANSURLConnectionSupport.m:114	+[NRMANSURLConnectionSupport instrumentNSURLConnection]
+	NSURLConnection is present; setting up instrumentation
+2016-03-04 10:26:07.824 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMAASISupport.m:298	+[NRMAASISupport instrumentASI]
+	ASIHTTPRequest is not present; skipping instrumentation
+2016-03-04 10:26:07.824 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMATitaniumSupport.m:282	+[NRMATitaniumSupport instrumentTitanium]
+	TI_ASIHTTPRequest is not present; skipping instrumentation
+2016-03-04 10:26:07.829 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMAHarvestTimer.m:21	-[NRMAHarvestTimer initWithHarvester:]
+	HarvestTime: <NRMAHarvestTimer: 0x7fa543c5bcd0> initialized
+2016-03-04 10:26:07.830 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMAMeasurements.m:57	+[NRMAMeasurements initializeMeasurements]
+	Measurement Engine Initialized.
+2016-03-04 10:26:07.830 Taste my Swift[98781:10445249] NewRelic(5.3.6,0x7fa543c59e90):	NRMAUncaughtExceptionHandler.m:88	__37-[NRMAUncaughtExceptionHandler start]_block_invoke
+	New Relic Crash Reporting is DISABLED because it has detected the debugger is enabled.
+2016-03-04 10:26:07.831 Taste my Swift[98781:10445249] NewRelic(5.3.6,0x7fa543c59e90):	NRMAHarvestTimer.m:39	-[NRMAHarvestTimer start]
+	HarvestTimer: starting with a period of 60000 ms
+2016-03-04 10:26:07.831 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	SessionAttributeManager.cxx:315	removeSessionAttribute
+	Unable to remove session attribute "upgradeFrom"; attribute not found.
+2016-03-04 10:26:07.832 Taste my Swift[98781:10445249] NewRelic(5.3.6,0x7fa543c59e90):	NRMAHarvester.m:510	-[NRMAHarvester execute]
+	Harvester State: 1
+2016-03-04 10:26:07.832 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	SessionAttributeManager.cxx:315	removeSessionAttribute
+	Unable to remove session attribute "com.newrelic.SecureUDID.returnedNil"; attribute not found.
+2016-03-04 10:26:07.832 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	SessionAttributeManager.cxx:315	removeSessionAttribute
+	Unable to remove session attribute "nr.deviceDidChange"; attribute not found.
+2016-03-04 10:26:07.832 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	SessionAttributeManager.cxx:315	removeSessionAttribute
+	Unable to remove session attribute "install"; attribute not found.
+2016-03-04 10:26:07.833 Taste my Swift[98781:10445249] NewRelic(5.3.6,0x7fa543c59e90):	NRMAHarvester.m:476	-[NRMAHarvester changeState:]
+	Harvester changing state: 1 -> 2
+2016-03-04 10:26:07.833 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	SessionAttributeManager.cxx:315	removeSessionAttribute
+	Unable to remove session attribute "sessionDuration"; attribute not found.
+2016-03-04 10:26:07.833 Taste my Swift[98781:10445249] NewRelic(5.3.6,0x7fa543c59e90):	NRMAHarvester.m:510	-[NRMAHarvester execute]
+	Harvester State: 2
+2016-03-04 10:26:07.833 Taste my Swift[98781:10445249] NewRelic(5.3.6,0x7fa543c59e90):	NRMAMeasurements.m:197	+[NRMAMeasurements recordSessionStartMetric]
+	Recording Session Start Metric.
+2016-03-04 10:26:07.834 Taste my Swift[98781:10445249] NewRelic(5.3.6,0x7fa543c59e90):	NRMAHarvester.m:476	-[NRMAHarvester changeState:]
+	Harvester changing state: 2 -> 3
+2016-03-04 10:26:07.834 Taste my Swift[98781:10445249] NewRelic(5.3.6,0x7fa543c59e90):	NRMAHarvester.m:510	-[NRMAHarvester execute]
+	Harvester State: 3
+2016-03-04 10:26:07.835 Taste my Swift[98781:10445249] NewRelic(5.3.6,0x7fa543c59e90):	NRMAHarvester.m:280	-[NRMAHarvester connected]
+	Harvester: connected
+2016-03-04 10:26:07.837 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMACrashDataUploader.m:56	-[NRMACrashDataUploader uploadCrashReports]
+	failed to fetch crash reports: Error Domain=NSCocoaErrorDomain Code=260 "The file “nrcrashreports” couldn’t be opened because there is no such file." UserInfo={NSURL=file:///Users/pknudsen/Library/Developer/CoreSimulator/Devices/2CEACC07-EFBF-45C6-B63E-2FABF10F21AD/data/Containers/Data/Application/B06C0628-A099-43CC-99A6-D0007DF4CD92/tmp//nrcrashreports, NSFilePath=/Users/pknudsen/Library/Developer/CoreSimulator/Devices/2CEACC07-EFBF-45C6-B63E-2FABF10F21AD/data/Containers/Data/Application/B06C0628-A099-43CC-99A6-D0007DF4CD92/tmp//nrcrashreports, NSUnderlyingError=0x7fa545801a20 {Error Domain=NSPOSIXErrorDomain Code=2 "No such file or directory"}}
+2016-03-04 10:26:07.837 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NewRelicAgentInternal.m:824	__104+[NewRelicAgentInternal startWithApplicationToken:andCollectorAddress:andCrashCollectorAddress:withSSL:]_block_invoke
+	The New Relic Agent started
+2016-03-04 10:26:07.839 Taste my Swift[98781:10445250] NewRelic(5.3.6,0x7fa543d3b880):	NRMAURLProtocol.m:101	+[NRMAURLProtocol canInitWithRequest:]
+	NRURLProtocol skipping non-webview request. Deferring to NRNSURLConnectionSupport.
+2016-03-04 10:26:07.908 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMATraceController.m:150	+[NRMATraceController startTracingWithName:interactionObject:]
+	"Display UINavigationController" Activity started
+2016-03-04 10:26:07.908 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMATraceController.m:181	+[NRMATraceController startTracing:]
+	Started activity with root trace : <(NRMATrace:0x7fa543e42af0):"UI_Thread">
+2016-03-04 10:26:07.909 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMATraceMachine.m:93	__50-[NRMATraceMachine startHealthyTimerWithInterval:]_block_invoke
+	Healthy trace timer started with interval: 0.500000
+2016-03-04 10:26:07.909 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMAThreadLocalStore.m:58	+[NRMAThreadLocalStore setThreadRootTrace:]
+	Trace <(NRMATrace:0x7fa543e42af0):"UI_Thread"> is now active
+2016-03-04 10:26:07.911 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMATraceController.m:244	+[NRMATraceController completeActivityTraceWithExitTimestampMillis:]
+	"Display UINavigationController" Activity Completed.
+2016-03-04 10:26:07.911 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMASummaryMeasurementConsumer.m:83	-[NRMASummaryMeasurementConsumer aggregateAndNormalizeAndRecordValuesWithTotalTime:scope:]
+	normalization error: totalExclusiveTime == 0. Not a big deal.
+2016-03-04 10:26:07.911 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMATraceController.m:150	+[NRMATraceController startTracingWithName:interactionObject:]
+	"Display UINavigationController" Activity started
+2016-03-04 10:26:07.912 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMATraceController.m:181	+[NRMATraceController startTracing:]
+	Started activity with root trace : <(NRMATrace:0x7fa543d6a6b0):"UI_Thread">
+2016-03-04 10:26:07.912 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMATraceMachine.m:93	__50-[NRMATraceMachine startHealthyTimerWithInterval:]_block_invoke
+	Healthy trace timer started with interval: 0.500000
+2016-03-04 10:26:07.912 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMAThreadLocalStore.m:58	+[NRMAThreadLocalStore setThreadRootTrace:]
+	Trace <(NRMATrace:0x7fa543d6a6b0):"UI_Thread"> is now active
+2016-03-04 10:26:07.919 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMATraceController.m:244	+[NRMATraceController completeActivityTraceWithExitTimestampMillis:]
+	"Display UINavigationController" Activity Completed.
+2016-03-04 10:26:07.920 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMASummaryMeasurementConsumer.m:83	-[NRMASummaryMeasurementConsumer aggregateAndNormalizeAndRecordValuesWithTotalTime:scope:]
+	normalization error: totalExclusiveTime == 0. Not a big deal.
+2016-03-04 10:26:07.920 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMATraceController.m:150	+[NRMATraceController startTracingWithName:interactionObject:]
+	"Display Taste_my_Swift.MasterViewController" Activity started
+2016-03-04 10:26:07.920 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMATraceController.m:181	+[NRMATraceController startTracing:]
+	Started activity with root trace : <(NRMATrace:0x7fa543f8f800):"UI_Thread">
+2016-03-04 10:26:07.920 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMATraceMachine.m:93	__50-[NRMATraceMachine startHealthyTimerWithInterval:]_block_invoke
+	Healthy trace timer started with interval: 0.500000
+2016-03-04 10:26:07.921 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMAThreadLocalStore.m:58	+[NRMAThreadLocalStore setThreadRootTrace:]
+	Trace <(NRMATrace:0x7fa543f8f800):"UI_Thread"> is now active
+54321!noitamrofni terces54321
+2016-03-04 10:26:07.925 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMATraceController.m:244	+[NRMATraceController completeActivityTraceWithExitTimestampMillis:]
+	"Display Taste_my_Swift.MasterViewController" Activity Completed.
+2016-03-04 10:26:07.926 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMASummaryMeasurementConsumer.m:83	-[NRMASummaryMeasurementConsumer aggregateAndNormalizeAndRecordValuesWithTotalTime:scope:]
+	normalization error: totalExclusiveTime == 0. Not a big deal.
+2016-03-04 10:26:07.926 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMATraceController.m:150	+[NRMATraceController startTracingWithName:interactionObject:]
+	"Display UISplitViewController" Activity started
+2016-03-04 10:26:07.926 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMATraceController.m:181	+[NRMATraceController startTracing:]
+	Started activity with root trace : <(NRMATrace:0x7fa543d29da0):"UI_Thread">
+2016-03-04 10:26:07.926 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMATraceMachine.m:93	__50-[NRMATraceMachine startHealthyTimerWithInterval:]_block_invoke
+	Healthy trace timer started with interval: 0.500000
+2016-03-04 10:26:07.927 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMAThreadLocalStore.m:58	+[NRMAThreadLocalStore setThreadRootTrace:]
+	Trace <(NRMATrace:0x7fa543d29da0):"UI_Thread"> is now active
+2016-03-04 10:26:07.927 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMATraceController.m:244	+[NRMATraceController completeActivityTraceWithExitTimestampMillis:]
+	"Display UISplitViewController" Activity Completed.
+2016-03-04 10:26:07.927 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMASummaryMeasurementConsumer.m:83	-[NRMASummaryMeasurementConsumer aggregateAndNormalizeAndRecordValuesWithTotalTime:scope:]
+	normalization error: totalExclusiveTime == 0. Not a big deal.
+2016-03-04 10:26:07.928 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMATraceController.m:150	+[NRMATraceController startTracingWithName:interactionObject:]
+	"Display UINavigationController" Activity started
+2016-03-04 10:26:07.928 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMATraceController.m:181	+[NRMATraceController startTracing:]
+	Started activity with root trace : <(NRMATrace:0x7fa543e4bd40):"UI_Thread">
+2016-03-04 10:26:07.928 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMATraceMachine.m:93	__50-[NRMATraceMachine startHealthyTimerWithInterval:]_block_invoke
+	Healthy trace timer started with interval: 0.500000
+2016-03-04 10:26:07.928 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMAThreadLocalStore.m:58	+[NRMAThreadLocalStore setThreadRootTrace:]
+	Trace <(NRMATrace:0x7fa543e4bd40):"UI_Thread"> is now active
+2016-03-04 10:26:07.929 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMATraceController.m:244	+[NRMATraceController completeActivityTraceWithExitTimestampMillis:]
+	"Display UINavigationController" Activity Completed.
+2016-03-04 10:26:07.929 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMASummaryMeasurementConsumer.m:83	-[NRMASummaryMeasurementConsumer aggregateAndNormalizeAndRecordValuesWithTotalTime:scope:]
+	normalization error: totalExclusiveTime == 0. Not a big deal.
+2016-03-04 10:26:07.929 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMATraceController.m:150	+[NRMATraceController startTracingWithName:interactionObject:]
+	"Display UINavigationController" Activity started
+2016-03-04 10:26:07.929 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMATraceController.m:181	+[NRMATraceController startTracing:]
+	Started activity with root trace : <(NRMATrace:0x7fa543d7b950):"UI_Thread">
+2016-03-04 10:26:07.930 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMATraceMachine.m:93	__50-[NRMATraceMachine startHealthyTimerWithInterval:]_block_invoke
+	Healthy trace timer started with interval: 0.500000
+2016-03-04 10:26:07.930 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMAThreadLocalStore.m:58	+[NRMAThreadLocalStore setThreadRootTrace:]
+	Trace <(NRMATrace:0x7fa543d7b950):"UI_Thread"> is now active
+2016-03-04 10:26:07.949 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMATraceController.m:244	+[NRMATraceController completeActivityTraceWithExitTimestampMillis:]
+	"Display UINavigationController" Activity Completed.
+2016-03-04 10:26:07.949 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMASummaryMeasurementConsumer.m:83	-[NRMASummaryMeasurementConsumer aggregateAndNormalizeAndRecordValuesWithTotalTime:scope:]
+	normalization error: totalExclusiveTime == 0. Not a big deal.
+2016-03-04 10:26:07.949 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMATraceController.m:150	+[NRMATraceController startTracingWithName:interactionObject:]
+	"Display Taste_my_Swift.MasterViewController" Activity started
+2016-03-04 10:26:07.949 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMATraceController.m:181	+[NRMATraceController startTracing:]
+	Started activity with root trace : <(NRMATrace:0x7fa543c5ec50):"UI_Thread">
+2016-03-04 10:26:07.950 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMATraceMachine.m:93	__50-[NRMATraceMachine startHealthyTimerWithInterval:]_block_invoke
+	Healthy trace timer started with interval: 0.500000
+2016-03-04 10:26:07.950 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMAThreadLocalStore.m:58	+[NRMAThreadLocalStore setThreadRootTrace:]
+	Trace <(NRMATrace:0x7fa543c5ec50):"UI_Thread"> is now active
+2016-03-04 10:26:07.958 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMATraceController.m:244	+[NRMATraceController completeActivityTraceWithExitTimestampMillis:]
+	"Display Taste_my_Swift.MasterViewController" Activity Completed.
+2016-03-04 10:26:07.959 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMASummaryMeasurementConsumer.m:83	-[NRMASummaryMeasurementConsumer aggregateAndNormalizeAndRecordValuesWithTotalTime:scope:]
+	normalization error: totalExclusiveTime == 0. Not a big deal.
+2016-03-04 10:26:07.959 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMATraceController.m:150	+[NRMATraceController startTracingWithName:interactionObject:]
+	"Display UIInputWindowController" Activity started
+2016-03-04 10:26:07.959 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMATraceController.m:181	+[NRMATraceController startTracing:]
+	Started activity with root trace : <(NRMATrace:0x7fa543cce8b0):"UI_Thread">
+2016-03-04 10:26:07.960 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMATraceMachine.m:93	__50-[NRMATraceMachine startHealthyTimerWithInterval:]_block_invoke
+	Healthy trace timer started with interval: 0.500000
+2016-03-04 10:26:07.960 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMAThreadLocalStore.m:58	+[NRMAThreadLocalStore setThreadRootTrace:]
+	Trace <(NRMATrace:0x7fa543cce8b0):"UI_Thread"> is now active
+2016-03-04 10:26:08.097 Taste my Swift[98781:10445249] NewRelic(5.3.6,0x7fa543c59e90):	NRMAHarvester.m:461	-[NRMAHarvester configureFromCollector:]
+	Harvest config: {"error_limit":50,"response_body_limit":2048,"report_max_transaction_count":1000,"at_capture":[1,[]],"stack_trace_limit":100,"report_max_transaction_age":600,"server_timestamp":1457115964,"activity_trace_min_utilization":0.3,"data_report_period":60,"data_token":[15643595,15644127],"activity_trace_max_size":65535,"collect_network_errors":true}
+2016-03-04 10:26:08.462 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMATraceMachine.m:100	-[NRMATraceMachine healthyTimeout]
+	Healthy trace timer fired
+2016-03-04 10:26:08.462 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMATraceMachine.m:93	__50-[NRMATraceMachine startHealthyTimerWithInterval:]_block_invoke
+	Healthy trace timer started with interval: 0.134639
+2016-03-04 10:26:08.468 Taste my Swift[98781:10445250] NewRelic(5.3.6,0x7fa543d3b880):	NRMANSURLConnectionSupport.m:361	+[NRMANSURLConnectionSupport noticeResponse:forRequest:withTimer:andBody:bytesSent:bytesReceived:]
+	https://www.woot.com
+	RT:      0.575
+	Status:  200
+Optional("https://www.woot.com")
+2016-03-04 10:26:08.598 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMATraceMachine.m:100	-[NRMATraceMachine healthyTimeout]
+	Healthy trace timer fired
+2016-03-04 10:26:08.598 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMATraceController.m:244	+[NRMATraceController completeActivityTraceWithExitTimestampMillis:]
+	"Display UIInputWindowController" Activity Completed.
+2016-03-04 10:26:08.599 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMASummaryMeasurementConsumer.m:93	-[NRMASummaryMeasurementConsumer aggregateAndNormalizeAndRecordValuesWithTotalTime:scope:]
+	recording Mobile/Summary/Network to scope Mobile/Activity/Summary/Name/Display UIInputWindowController
+2016-03-04 10:26:08.599 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMASummaryMeasurementConsumer.m:93	-[NRMASummaryMeasurementConsumer aggregateAndNormalizeAndRecordValuesWithTotalTime:scope:]
+	recording Mobile/Summary/Database to scope Mobile/Activity/Summary/Name/Display UIInputWindowController
+2016-03-04 10:26:08.599 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMASummaryMeasurementConsumer.m:93	-[NRMASummaryMeasurementConsumer aggregateAndNormalizeAndRecordValuesWithTotalTime:scope:]
+	recording Mobile/Summary/View Loading to scope Mobile/Activity/Summary/Name/Display UIInputWindowController
+2016-03-04 10:26:08.599 Taste my Swift[98781:10445086] NewRelic(5.3.6,0x7fa543f04ba0):	NRMASummaryMeasurementConsumer.m:93	-[NRMASummaryMeasurementConsumer aggregateAndNormalizeAndRecordValuesWithTotalTime:scope:]
+	recording Mobile/Summary/JSON to scope Mobile/Activity/Summary/Name/Display UIInputWindowController
+2016-03-04 10:26:09.069 Taste my Swift[98781:10445257] NewRelic(5.3.6,0x7fa543fb86a0):	NRMAMeasurements.m:216	+[NRMAMeasurements recordActivityTrace:]
+	Maximum number of Activity Traces collected. Skipping
+2016-03-04 10:26:09.354 Taste my Swift[98781:10445278] NewRelic(5.3.6,0x7fa543e44d20):	NRMANSURLConnectionSupport.m:361	+[NRMANSURLConnectionSupport noticeResponse:forRequest:withTimer:andBody:bytesSent:bytesReceived:]
+	https://www.amazon.com
+	RT:      1.463
+	Status:  200
+Optional("https://www.amazon.com")
